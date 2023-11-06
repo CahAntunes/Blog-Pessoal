@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Technology</title>
+    <script src="health.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Arimo:400,700&display=swap">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#area">Área</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a id="home" href="index.html">Health Technology</a></li>
+                <li><a href="#materias">Matérias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <video width="650" controls autoplay loop>
+        <source src="pexels-google-deepmind-18069472 (540p).mp4" type="video/mp4">
+    </video>
+    
+        <section class="article">
+            <div class="article-content">
+                <div class="article-text">
+                    <h2 id ="area">Área de Atuação</h2>
+                    <h3>Tecnologia da Saúde</h3>
+
+                    <figure class="imagem-artigo">
+                        <img src="assets/img-doc.png" alt="Imagem de um médico">
+                        <figcaption>Legenda: Médico</figcaption>
+                      </figure>
+    
+                    <p>A intersecção entre tecnologia e saúde é uma área que é comumente referida como "Tecnologia da Saúde"
+                        ou "Tecnologia Médica".</p>
+    
+                    <p>Essa esfera de atuação concentra seus esforços no desenvolvimento e aplicação de tecnologias
+                        avançadas com o objetivo de aprimorar diversos aspectos dos cuidados de saúde, tais como
+                        diagnóstico, tratamento e gestão de informações relacionadas à saúde.</p>
+    
+                    <p>Dentro desse campo em constante expansão, uma variedade de inovações e soluções tecnológicas têm sido
+                        desenvolvidas e implementadas para melhorar a qualidade da assistência médica. Estas incluem
+                        dispositivos médicos de última geração, sistemas de informação de saúde sofisticados, aplicativos
+                        móveis direcionados à saúde, robótica médica de precisão, inteligência artificial aplicada à
+                        medicina e o uso crescente da telemedicina para possibilitar a prestação de cuidados à distância.
+                    </p>
+    
+                    <p>Um exemplo notável dessa tecnologia é a Inteligência Artificial, que é capaz de analisar enormes
+                        conjuntos de dados clínicos, imagens médicas e registros eletrônicos de pacientes para identificar
+                        padrões e tendências que podem ser fundamentais para diagnósticos mais precisos e tratamentos mais
+                        eficazes. Além disso, a robótica médica tem proporcionado cirurgias mais precisas e menos invasivas,
+                        enquanto aplicativos móveis de saúde capacitam as pessoas a monitorar sua própria saúde e bem-estar.
+                    </p>
+    
+                    <p>A tecnologia da saúde também tem um impacto significativo na melhoria dos serviços de saúde,
+                        resultando na redução de custos e na promoção de uma maior acessibilidade aos cuidados médicos. Ela
+                        desempenha um papel vital na promoção de melhores resultados para os pacientes, possibilitando o
+                        diagnóstico precoce, tratamentos mais personalizados e uma gestão mais eficaz de condições crônicas.
+                    </p>
+    
+                    <p>Portanto, a Tecnologia da Saúde está transformando a maneira como a assistência médica é prestada,
+                        tornando-a mais precisa, eficiente e acessível, e representando um campo de inovação constante com o
+                        potencial de melhorar a qualidade de vida de milhões de pessoas em todo o mundo.</p>
+                </div>
+        </section>
+</main>
+
+<div class="materias">
+    <h2 id="materias">Confira nossas outras matérias</h2>
+    
+        <div class="card">
+            <a href="page02.html">
+            <h2>Matéria - Mulheres na Tecnologia</h2>
+            </a>
+        </div>
+        
+        <div class="card">
+            <a href="page03.html">
+            <h2>Inovações Tecnológicas na Área da Saúde</h2>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="page04.html">
+            <h2>Atuação da IA no setor Médico</h2>
+            </a>
+        </div>
+</div>
+    <section class="email-signup">
+        <h2>Assine a Health Technology gratuitamente e <br>tenha acesso ao nosso conteúdo exclusivo</h2>
+        <div class="email-input">
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+            <button id="cadastrarEmail">Cadastrar</button>
+            <script>
+                document.getElementById("cadastrarEmail").addEventListener("click", validateEmail);
+            </script>
+        </div>
+        <p id="email-validation-message"></p>
+    </section>
+
+    <footer id="contato">
+        <div class="sociais">
+            <p>Nos siga em nossas redes sociais</p>
+            <a href="https://pt-br.facebook.com/"><img class="logos" src="assets/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img class="logos" src="assets/instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; Health Technology 2023</p>
+    </footer>
+
+</body>
+
+</html>

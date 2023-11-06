@@ -1,6 +1,6 @@
 #Blog - Tech & Healthy
 
-Para conferir o funcionamento do site hospedado, acesse: [link]
+Para conferir o funcionamento do site hospedado, acesse: https://cahantunes.github.io/Blog-Pessoal/
 
 ##Motivação da escolha do projeto
 
@@ -12,18 +12,16 @@ Para todos os meus colegas que compartilham o mesmo carinho que eu tenho pela á
 
 ##Ferramentas Utilizadas
 
+HTML
+CSS
+JS
+
 ###FIGMA
 
 Depois de fazer um rascunho no papel, utilizei o FIGMA para prototipar minhas telas e compreender tudo o que eu gostaria que meu blog tivesse e como seria as telas.
 
 ###UNSPLASH
 
-Encontrei as imagens que queria adicionar no Unsplash "um site livre etc (pegar essa parte do site) 
+Encontrei as imagens que queria adicionar no Unsplash:
+"As fotos na Unsplash são feitas para serem usadas livremente. Nossa licença reflete isso."
 
-##HTML
-
-
-##CSS
-
-
-##JavaScript

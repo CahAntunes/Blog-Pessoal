@@ -71,12 +71,12 @@ p {
 }
 
 video {
-    padding-left: 60px;
-    padding-right: 40px;
+    margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 30px;
+    width: 85%;
+    border-radius: 10px;
 }
-
 
 header {
     font-family: Roboto, sans-serif;
